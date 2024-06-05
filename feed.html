@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM-PROJECT TEAM 19 PALEMBANG</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f88ed269c0.js" crossorigin="anonymous"></script>
+    
+    <!-- Load Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Interaction table -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="images/Logo19.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>Hubungi</span> Kami </h1>
+    <div class="row">
+        <form action="send_feedback.php" method="post">
+
+            <h1 class="heading"> Feed <span>Back</span> </h1>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" name="nama" placeholder="nama" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" name="email" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-comments"></span>
+                <input name="saran" placeholder="saran" required></input>
+            </div>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </div>
+</section>
+
+
+</body>
+</html>
